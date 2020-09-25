@@ -1,14 +1,19 @@
-const http = require('http');
+const express = require('express')
+const app = express();
 
-const hostname = '127.0.0.1';
-const port = 3000;
+const port = 8000;
 
-const server = http.createServer((req, res) => {
+app.get("/",(req, res) => {
   res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello Clients');
+  res.send("Hello Client");
 });
 
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
+// handling icon request 
+app.get("/favicon.ico",(req, res) => {
+    res.statusCode = 200;
+    res.send("favicon");
+  });
+
+app.listen(port, () => {
+    console.log('Example app listening on port 8000!')
+  });

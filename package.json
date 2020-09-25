@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/PnW1/nodejs-express/issues"
   },
-  "homepage": "https://github.com/PnW1/nodejs-express#readme"
+  "homepage": "https://github.com/PnW1/nodejs-express#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
