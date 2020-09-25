@@ -1,0 +1,23 @@
+{
+  "name": "picture-frame-node",
+  "version": "1.0.0",
+  "description": "backend for picture-frame reactjs based application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PnW1/nodejs-express.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "Sheharyar khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PnW1/nodejs-express/issues"
+  },
+  "homepage": "https://github.com/PnW1/nodejs-express#readme"
+}
